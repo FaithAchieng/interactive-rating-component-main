@@ -44,4 +44,23 @@ h1{
     padding: 10px;
     border-radius: 20px;
     border: 1px solid hsl(25, 97%, 53%);
+    font-weight: bold;
+}
+.submit :hover{
+    cursor: pointer;
+}
+.big-card{
+    display: none;
+}
+.thanksCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
 }

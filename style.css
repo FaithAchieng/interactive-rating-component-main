@@ -4,7 +4,6 @@ body{
 .container{
     min-width: 100vh;
     min-height: 100vh;
-    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,16 +61,26 @@ h1{
 }
 .big-card{
     display: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
 }
 .thanksCard{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: hsl(213, 19%, 18%);
     padding: 20px;
-    width: 25%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 20px;
+}
+.selected{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 40px;
+    padding: 15px;
+    color: hsl(216, 12%, 8%);
 }

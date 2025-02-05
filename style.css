@@ -90,3 +90,10 @@ button.selected{
     padding: 15px;
     color: hsl(216, 12%, 8%);
 }
+
+@media screen and (max-width:768px){
+    .card{
+        margin-left:-500px;
+    }
+    
+}

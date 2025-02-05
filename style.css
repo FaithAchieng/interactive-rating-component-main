@@ -32,6 +32,15 @@ h1{
     padding: 15px;
     border: 1px solid hsl(214, 22%, 22%);
 }
+.one:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    
+}
+.one:active{
+    background-color: hsl(0, 0%, 100%);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
 .reviews{
     display: flex;
     flex-direction: row;
@@ -46,8 +55,10 @@ h1{
     border: 1px solid hsl(25, 97%, 53%);
     font-weight: bold;
 }
-.submit :hover{
+.submit:hover{
     cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0,0%, 100%);
 }
 .big-card{
     display: none;
